@@ -1,0 +1,24 @@
+Questions:
+
+1. 
+
+
+we say we don't call function like '{lout()}' cause they will be triggered on the page loading and that is why we use '{()=> lout()}'  but we can write like {lout}...
+
+IF the function is var lout= ()=>{
+	your code here
+} 
+
+
+then We can write
+
+ onClick={lout}
+
+And
+
+onClick={()=>lout()}
+
+
+2. What is Props?
+3. Props vs State data?
+4.What is Hooks?
